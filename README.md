@@ -293,21 +293,8 @@ namespace Shapes
         {
             static void Main(string[] args)
             {
-                Console.WriteLine("Shapes!");
-                FlatShapes.Position a0 = new FlatShapes.Position(1, 1);
-                FlatShapes.Position a1 = new FlatShapes.Position(1, 0);
-                FlatShapes.Position a2 = new FlatShapes.Position(0, 0);
-                FlatShapes.Position a3 = new FlatShapes.Position(0, 1);
-                FlatShapes.Position b = new FlatShapes.Position(0, 0);
-
-                Console.WriteLine(FlatShapes.Position.checkParalell(a0, b));
-                Console.WriteLine(FlatShapes.Position.leng(a0));
-                Console.WriteLine(FlatShapes.Position.Angle(a0, b));
-
-                FlatShapes.Position[] mylist = new FlatShapes.Position[] { a0, a1, a2, a3 };
-                Square s1 = new Square(mylist);
-                s1.getArea();
-                s1.getPerimeter();
+                Console.WriteLine("Shapes");
+               
             }
 
         }
